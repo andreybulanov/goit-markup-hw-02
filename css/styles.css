@@ -1,0 +1,80 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый  #FFFFFF */
+/* Акцент  #2196F3 */
+/* просто какойто цвет текста rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона  #F5F4FA */
+/* цвет бека героя #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --third-bg-color: #2f303a;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+/* .iist */
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.first-logo {
+  color: var(--accent-color);
+}
+
+.second-logo {
+  color: var(--primary-bg-color);
+}
+
+/* site nav */
+
+.site-nav a {
+  color: var(--title-text-color);
+}
+
+.auth-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: #ffffff;
+  background-color: var(--third-bg-color);
+}
+
+.section-title,
+.team-title {
+  color: var(--title-text-color);
+}
+
+.address-titl {
+  color: var(--primary-bg-color);
+}
+
+.contact-titl {
+  color: var(--secondary-text-color);
+}
+
+footer {
+  background-color: var(--third-bg-color);
+}
